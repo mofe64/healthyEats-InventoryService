@@ -1,0 +1,7 @@
+spring:
+  config:
+    import: configserver:http://localhost:8071
+  application:
+    name: healthyeats-inventoryservice
+  profiles:
+    active: dev
